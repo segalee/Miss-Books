@@ -1,0 +1,9 @@
+div.review-details {
+  background-color: #cdc5d142;
+  margin: 20px;
+  padding: 5px;
+}
+.btn-remove-review {
+  float: right;
+  display: block;
+}

@@ -1,0 +1,28 @@
+.user-msg {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  border-radius: 8px;
+  font-size: 10px;
+  padding-inline-end: 2rem;
+  padding-inline-start: 1rem;
+  color: rgb(112, 88, 96);
+}
+
+.user-msg button {
+  position: fixed;
+  top: 11%;
+  right: 11%;
+  background-color: rgb(206, 209, 182);
+  padding: 5px;
+}
+.user-msg button:hover {
+  background-color: rgb(223, 222, 158);
+}
+.user-msg.success {
+  background-color: rgba(143, 214, 179, 0.753);
+}
+
+.user-msg.danger {
+  background-color: rgba(230, 154, 154, 0.609);
+}

@@ -1,0 +1,22 @@
+.book-preview {
+  width: 210px;
+  height: 280px;
+  cursor: pointer;
+  text-align: center;
+  background-color: rgba(132, 145, 214, 0.24);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  box-shadow: 7px 8px 3px 2px #9b8b9b;
+  transition: background-color 0.3s;
+  color: black;
+}
+.book-preview li {
+  list-style: none;
+}
+.book-preview img {
+  width: 50px;
+}
+
+.book-preview:hover {
+  background-color: rgba(162, 141, 221, 0.486);
+}

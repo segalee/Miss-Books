@@ -1,0 +1,16 @@
+.book-filter {
+  padding: 0rem 2rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+input {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: small;
+  width: 150px;
+  border-radius: 5px;
+  border: cadetblue 1px solid;
+}
+
+.book-filter > *:not(:last-child) {
+  margin-inline-end: 1rem;
+}

@@ -1,0 +1,45 @@
+.book-details {
+  margin-left: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d1cfdc6b;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  height: 70%;
+}
+
+.book-details-info {
+  margin-left: 50px;
+  line-height: 13px;
+}
+
+.book-details > *:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.book-details img {
+  width: 200px;
+  margin-top: 16px;
+}
+.book-title {
+  text-transform: capitalize;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+.btns-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 5px;
+  margin-bottom: 5px;
+}
+
+.btns-div button {
+  width: fit-content;
+}

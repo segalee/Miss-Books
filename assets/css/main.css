@@ -1,0 +1,59 @@
+@import './Home.css';
+@import './ReviewAdd.css';
+@import './Stars.css';
+@import './ReviewPreview.css';
+@import './Header.css';
+@import './About.css';
+@import './BookDetails.css';
+@import './BookFilter.css';
+@import './BookList.css';
+@import './BookPreview.css';
+@import './LongTxt.css';
+@import './user-msg.css';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,300&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0ccd463;
+  margin: 0;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, V erdana, sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 0.3rem 1.2rem;
+  border-radius: 2rem;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  background-color: #b3a6b4;
+  height: 10vh;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.primary-btn {
+  background-color: rgb(241, 224, 224);
+  font-weight: bold;
+}
+.primary-btn:hover {
+  background-color: rgba(188, 193, 206, 0.171);
+}
+
+.clean-link {
+  text-decoration: none;
+  list-style: none;
+}

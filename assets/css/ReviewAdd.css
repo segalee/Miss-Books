@@ -1,0 +1,24 @@
+textarea {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: small;
+  width: 150px;
+  border-radius: 5px;
+  border: cadetblue 1px solid;
+}
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.review-form select {
+  width: fit-content;
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 5px;
+  border: cadetblue 1px solid;
+}
+
+.review-form button {
+  width: fit-content;
+  margin-bottom: 10px;
+}

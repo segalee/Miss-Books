@@ -1,0 +1,28 @@
+.hero-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url('../img/library.jpg');
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-txt {
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 0 0 0 rgb(44, 42, 42);
+}
+
+.home p {
+  font-size: 2rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  width: 100%;
+}
